@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="OCD imu2can_f103" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="imu2can_f103" TARGET_NAME="imu2can_f103.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="imu2can_f103" RUN_TARGET_NAME="imu2can_f103.elf">
+    <openocd gdb-port="3333" telnet-port="4444" board-config="board/st_nucleo_f103rb.cfg" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
